@@ -1,4 +1,115 @@
 html, body{
-  margin:0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+a {
+    text-decoration: none !important;
+}
+.logo{
+  width: 400px;
+  padding: 20px;
+}
+.player{
+}
+.info {
+  width: 100%;
+  font-size: 14px;
+  line-height: 21px;
+}
+.info td{
+  padding:40px;
+  text-align: left;
+  vertical-align:top;
+}
+
+#mc_embed_signup h2, #mc_embed_signup form, h2{
+  padding: 0px;
+  margin: 0px;
+}
+.hashtag{
+  padding-top: 20px;
+}
+h1{
+  font-size: 12px;
+  line-height: 12px;
+}
+h2{
+  font-size: 20px !important;
+  line-height: 20px !important;
+}
+h3{
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+.mc-field-group input{
+  border: none !important;
+  border-bottom: 1px solid #83cc71 !important;
+  width: 200px !important;
+  margin-top: 20px !important;
+}
+
+.mailto{
+    clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    transition: all 0.23s ease-in-out 0s;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    margin: 15px 5px 10px 0;
+    padding: 0 22px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}
+.slabel{
+  padding-bottom: 20px;
+}
+.social{
+  width:40px;
+  height:40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  padding-left: 10px;
+}
+.fb{
+  background-image: url("../assets/fb.png");
+}
+.youtube{
+  background-image: url("../assets/youtube.png");
+}
+
+.table{
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+.table_cell{
+    padding-top: 40px;
+    display:table-cell;
+    width:100px;
+}
+.table_cell.left{
+    text-align: right;
+    padding-right: 20px;
+}
+.table_cell.right{
+    text-align: left;
+    padding-left: 40px;
+}
+.table_cell.center{
+    width:40px;
 }
